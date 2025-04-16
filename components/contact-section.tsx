@@ -8,7 +8,7 @@ import { MapPin, Phone, Mail, Clock, Send } from "lucide-react"
 
 export default function ContactSection() {
   return (
-    <section className="py-16 bg-muted/50">
+    <section className="py-16 bg-muted/50 lg:mx-12">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <motion.span

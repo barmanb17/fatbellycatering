@@ -70,7 +70,7 @@ export default function FeaturedDishes() {
   const filteredDishes = dishes.filter((dish) => dish.category === activeCategory)
 
   return (
-    <section className="section-padding">
+    <section className="section-padding px-6 lg:px-20">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <motion.span

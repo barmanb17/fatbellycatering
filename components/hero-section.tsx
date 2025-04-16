@@ -48,7 +48,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-3xl"
+            className="max-w-3xl lg:max-w-5xl lg:px-12"
           >
             <motion.span
               initial={{ opacity: 0 }}

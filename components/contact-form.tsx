@@ -20,7 +20,7 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // In a real application, you would handle form submission here
+    // form handler
     setIsSubmitted(true)
 
     // Reset form after 3 seconds

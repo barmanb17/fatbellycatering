@@ -5,8 +5,8 @@ import Image from "next/image"
 
 export default function AboutStory() {
   return (
-    <section className="py-16">
-      <div className="container mx-auto px-4">
+    <section className="py-16 ">
+      <div className="container mx-auto lg:px-20  max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -45,7 +45,7 @@ export default function AboutStory() {
             // whileInView={{ opacity: 1, x: 0 }}
             // viewport={{ once: true }}
             // transition={{ duration: 0.5, delay: 0.2 }}
-            className="relative h-[400px] rounded-lg overflow-hidden shadow-xl"
+            className="relative h-[400px] rounded-lg overflow-hidden shadow-xl "
           >
             <Image
               src="/1.jpg"
