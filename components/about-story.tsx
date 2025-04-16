@@ -41,11 +41,11 @@ export default function AboutStory() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="relative h-[500px] rounded-lg overflow-hidden shadow-xl"
+            // initial={{ opacity: 0, x: 50 }}
+            // whileInView={{ opacity: 1, x: 0 }}
+            // viewport={{ once: true }}
+            // transition={{ duration: 0.5, delay: 0.2 }}
+            className="relative h-[400px] rounded-lg overflow-hidden shadow-xl"
           >
             <Image
               src="/1.jpg"
